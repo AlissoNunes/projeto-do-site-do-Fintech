@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KyZXEAg3QhqLMpG8r+Knujsl5+d7/ZBF1R6mvlTTpXD5mZTDR60K3Ykm0n6tq2Ukrd6l7+6DlSPOeKyGrmjBQA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&family=Gafata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/estilos.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="position-absolute criar-conta-container">
+            <a href="#" class="btn btn-primary criar-conta">Criar conta</a>
+        </div>
+        <div class="container-login bg-transparent text-center p-4">
+            <h1 class="text-white mb-4">LOGIN</h1>
+            <form>
+                <div class="form-group d-flex align-items-center bg-white p-2 rounded mb-3">
+                    <i class="fas fa-user mr-2 text-muted"><img src="src/img/icone_anonimo.png" alt="icone anônimo"></i>
+                    <span class="separator">|</span>
+                    <input type="text" class="form-control border-0" placeholder="USUÁRIO">
+                </div>
+                <div class="form-group d-flex align-items-center bg-white p-2 rounded mb-3">
+                    <i class="fas fa-lock mr-2 text-muted"><img src="src/img/icone_cadeado.png" alt="icone do cadeado"></i>
+                    <span class="separator">|</span>
+                    <input type="password" class="form-control border-0" placeholder="SENHA">
+                </div>
+                <div class="form-group d-flex justify-content-between align-items-center text-white mb-3">
+                    <label><input type="checkbox"> Lembrar</label>
+                    <a href="#" class="text-white">Esqueceu senha?</a>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block botao-entrar mb-4">Entrar</button>
+            </form>
+            <div class="d-flex justify-content-center icones-sociais">
+                <a href="https://www.facebook.com" target="_blank" class="mx-2 text-white"><i class="fab fa-facebook fa-2x"><img src="src/img/icone_facebook.png" alt="icone do facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="mx-2 text-white"><i class="fab fa-instagram fa-2x"><img src="src/img/icone_instagram.png" alt="icone do instagram"></i></a>
+                <a href="https://x.com/i/flow/login" target="_blank" class="mx-2 text-white"><i class="fab fa-x fa-2x"><img src="src/img/icone_x.png" alt="icone do X"></i></a>
+                <a href="https://www.google.com" target="_blank" class="mx-2 text-white"><i class="fab fa-google fa-2x"><img src="src/img/icone_google.png" alt="icone do google"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
